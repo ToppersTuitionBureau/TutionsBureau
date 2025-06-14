@@ -1,41 +1,41 @@
 
 import React from 'react'
-import logo from '../assets/logo/Logo 2 cropped.jpg'
+import logo from '../assets/logo/Logo 2 redCropped.jpg'
 
 // Logo 2 cropped
 const Footer = () => {
   return (
     <>
-    <footer className='bg-[#F7F7F7] text-black py-12 px-6 md:px-12 mt-40'>
+    <footer className='bg-white text-black py-12 px-6 md:px-12'>
         <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8'>
       
-      <img src={logo} />
+      <img src={logo} alt='Logo'/>
 
       {/* About Section */}
       <div>
-        <h3 className='text-lg mb-4 font-semibold text-[#7392E9]'>About Us</h3>
+        <h3 className='text-lg mb-4 font-semibold text-[#e63946]'>About Us</h3>
         <p className='text-black-400 text-sm leading-relaxed'>
         Empowering students with quality education through personalized tutoring services. Connect with expert tutors for academic success.</p>
       </div>
 
       {/* Quick Links */}
       <div>
-        <h3 className='text-lg mb-4 px-6 font-semibold text-[#7392E9]'>Quick Links</h3>
+        <h3 className='text-lg mb-4 px-6 font-semibold text-[#e63946]'>Quick Links</h3>
 
         <ul className='space-y-2  px-7 text-sm'>
-        <li><a className='text-black-400 hover:text-blue-500 transition-colors' 
+        <li><a className='text-black-400 hover:text-red-500 transition-colors' 
         href="/home">Home</a></li>
-        <li><a className='text-black-400 hover:text-blue-500 transition-colors'
+        <li><a className='text-black-400 hover:text-red-500 transition-colors'
         href="/findMentor">FindMentor</a></li>
-        <li><a className='text-black-400 hover:text-blue-500 transition-colors'
+        <li><a className='text-black-400 hover:text-red-500 transition-colors'
         href="BeaMentor">Be A Mentor</a></li>
-        <li><a className='text-black-400 hover:text-blue-500 transition-colors'
+        <li><a className='text-black-400 hover:text-red-500 transition-colors'
         href="/Contact US">Contact Us</a></li>
       </ul>
       </div>
             {/* Contact Info */}
       <div>
-        <h3 className='text-lg mb-4 font-semibold text-[#7392E9]'>Contact info</h3>
+        <h3 className='text-lg mb-4 font-semibold text-[#e63946]'>Contact info</h3>
           
         <p className='text-black-400 mb-2 text-sm'>Email: info@tutionBuearu.com</p>
         <p className='text-black-400 mb-2 text-sm'>Phone: +1 (123) 456-7890</p>

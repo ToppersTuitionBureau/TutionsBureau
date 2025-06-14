@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../components/Header'
 
 function BeaMentor() {
   return (
-    <div>BeaMentor</div>
+    <>
+    <Header/>
+    Be a mentor
+    </>
   )
 }
 

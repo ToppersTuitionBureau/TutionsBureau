@@ -1,8 +1,10 @@
 import React from 'react'
+import Header from '../components/Header'
 
 function FindMentor() {
   return (
-    <div>FindMentor</div>
+    <div><Header />
+    find a mentor</div>
   )
 }
 
