@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
         {features.map((item, index) => (
           <div
             key={index}
-            className="whyChooseUs-card text-left p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition duration-300"
+            className="whyChooseUs-card text-left p-6 bg-[#ffecee] rounded-lg shadow hover:shadow-lg transition duration-300"
           >
             <div className="mb-4 flex justify-start">{item.icon}</div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">
