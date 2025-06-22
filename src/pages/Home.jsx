@@ -4,6 +4,7 @@ import Footer from  '../components/Footer'
 import { IoCallSharp } from "react-icons/io5";
 import WhyChooseUs from '../components/WhyChooseUs';
 import LearningCategories from '../components/LearningCategories';
+import HeroStats from '../components/HeroStats';
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
     </div>
     <WhyChooseUs/>
     <LearningCategories />
+    <HeroStats />
     <Footer/>
     </>
   )
