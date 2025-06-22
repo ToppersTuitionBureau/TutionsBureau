@@ -6,6 +6,7 @@ import WhyChooseUs from '../components/WhyChooseUs';
 import LearningCategories from '../components/LearningCategories';
 import HeroStats from '../components/HeroStats';
 import HowItWorks from '../components/HowItWorks';
+import TestimonialsSection from '../components/TestimonialsSection';
 
 
 function Home() {
@@ -17,8 +18,9 @@ function Home() {
     </div>
     <WhyChooseUs/>
     <LearningCategories />
-    <HeroStats />
     <HowItWorks />
+    <HeroStats />
+    <TestimonialsSection />
     <Footer/>
     </>
   )

@@ -51,9 +51,9 @@ const WhyChooseUs = () => {
     <section className="whyChooseUs-section bg-white py-16 px-4 sm:px-8">
       <div className="max-w-7xl mx-auto text-left mb-12">
         <h2 className="text-3xl font-bold">
-          Why Choose Tutions Bureau?
+          Why Choose <span className="text-[#]">Tutions Bureau</span>?
         </h2>
-        <p className="text-gray-600 text-lg max-w-7xl mx-auto mt-2 font-poppins">
+        <p className="text-gray-600 text-lg font-semibold max-w-7xl mx-auto mt-2 font-poppins">
           We help students connect with top-rated tutors tailored to their goals
           — quickly, easily, and for free.
         </p>

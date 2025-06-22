@@ -18,8 +18,8 @@ const steps = [
 const HowItWorks = () => {
   return (
     <div className="bg-[#ffecee] py-16 px-4 flex flex-col items-center">
-      <h1 className="text-4xl font-bold text-gray-800 mb-4 text-center">How it works</h1>
-      <p className="text-gray-600 text-center mb-12 max-w-xl leading-relaxed">
+      <h1 className="text-5xl font-extrabold text-gray-800 mb-4 text-center">How It <span className='text-[#e63946]'>Works</span></h1>
+      <p className="text-gray-600 font-semibold text-base text-center mb-12 max-w-xl leading-relaxed">
         Personalized online tutoring to boost grades and confidence.<br />
         Improve your grades by 3x with lessons that match your needs and learning goals.
       </p>
