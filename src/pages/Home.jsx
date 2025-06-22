@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from  '../components/Footer'
 import { IoCallSharp } from "react-icons/io5";
 import WhyChooseUs from '../components/WhyChooseUs';
+import LearningCategories from '../components/LearningCategories';
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <h1 className='text-white text-xl flex items-center gap-3'><IoCallSharp />: +91 98765 43210</h1>
     </div>
     <WhyChooseUs/>
+    <LearningCategories />
     <Footer/>
     </>
   )

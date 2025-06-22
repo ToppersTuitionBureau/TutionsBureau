@@ -48,7 +48,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="bg-white py-16 px-4 sm:px-8">
+    <section className="whyChooseUs-section bg-white py-16 px-4 sm:px-8">
       <div className="max-w-7xl mx-auto text-left mb-12">
         <h2 className="text-3xl font-bold">
           Why Choose Tutions Bureau?
@@ -63,7 +63,7 @@ const WhyChooseUs = () => {
         {features.map((item, index) => (
           <div
             key={index}
-            className="text-left p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition duration-300"
+            className="whyChooseUs-card text-left p-6 bg-gray-50 rounded-lg shadow hover:shadow-lg transition duration-300"
           >
             <div className="mb-4 flex justify-start">{item.icon}</div>
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">
