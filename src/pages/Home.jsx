@@ -17,6 +17,8 @@ function Home() {
     </div>
     <WhyChooseUs/>
     <LearningCategories />
+    <HeroStats />
+    <HowItWorks />
     <Footer/>
     </>
   )
