@@ -1,13 +1,13 @@
-import academic from "../assets/images/Academic.webp";
-import exam from "../assets/images/Exam.webp";
-import guidance from "../assets/images/Guidance.webp";
-import softskills from "../assets/images/softSkills.webp";
-
 export default function LearningCategories() {
+  const academic = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750593756/Academic_bxw3kg.webp";
+  const exam = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750593756/Exam_vmps0q.webp";
+  const guidance = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750593757/Guidance_ghidsk.webp";
+  const softskills = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750593757/softSkills_dkbvvc.webp";
+
   const categories = [
     {
       title: "Academic Help",
-      image: academic, // Replace with your generated image path
+      image: academic,
       description:
         "Personalized tutoring in school subjects like Math, Science, English and more — customized for your grade, board, and pace.",
     },

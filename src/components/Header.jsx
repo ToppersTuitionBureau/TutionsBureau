@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logoHead from "../assets/logo/Logo 2 redCropped.jpg";
 import { Link, useLocation } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import Sidebar from "./Sidebar";
@@ -12,6 +11,8 @@ const navLinks = [
 ];
 
 const Header = () => {
+  const logoHead = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750593737/Logo_2_redCropped_iyfn5l.jpg";
+
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const location = useLocation();
 
