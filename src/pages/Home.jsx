@@ -4,6 +4,7 @@ import Footer from  '../components/Footer'
 import { IoCallSharp } from "react-icons/io5";
 import WhyChooseUs from '../components/WhyChooseUs';
 
+
 function Home() {
   return (
     <>

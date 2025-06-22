@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import FindMentor from "./pages/FindMentor";
 import BeaMentor from "./pages/BeaMentor";
 import Contact from "./pages/Contact";
+import './styles/globals.css'
 
 function App() {
   return (
