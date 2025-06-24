@@ -2,15 +2,15 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from  '../components/Footer'
 import { IoCallSharp } from "react-icons/io5";
-import WhyChooseUs from '../components/WhyChooseUs';
-import LearningCategories from '../components/LearningCategories';
-import HeroStats from '../components/HeroStats';
-import HowItWorks from '../components/HowItWorks';
-import TestimonialsSection from '../components/TestimonialsSection';
-import MentorCTA from '../components/MentorCTA';
-import StudentCTA from '../components/StudentCTA';
-import TopMentorCard from '../components/TopMentorCard';
-import HeroSection from '../components/HeroSection';
+import WhyChooseUs from '../components/HomeComponents/WhyChooseUs';
+import LearningCategories from '../components/HomeComponents/LearningCategories';
+import HeroStats from '../components/HomeComponents/HeroStats';
+import HowItWorks from '../components/HomeComponents/HowItWorks';
+import TestimonialsSection from '../components/HomeComponents/TestimonialsSection';
+import MentorCTA from '../components/HomeComponents/MentorCTA';
+import StudentCTA from '../components/HomeComponents/StudentCTA';
+import TopMentorCard from '../components/HomeComponents/TopMentorCard';
+import HeroSection from '../components/HomeComponents/HeroSection';
 
 
 function Home() {
