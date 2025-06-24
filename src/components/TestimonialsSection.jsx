@@ -110,12 +110,14 @@ const ReviewCard = ({ image, text, name, subject }) => (
 );
 
 const AutoScrollRow = ({ reviews, direction }) => {
-  const fullList = [...reviews, ...reviews]; // duplicate reviews
+  const fullList = [...reviews, ...reviews]; // duplicate for seamless loop
 
   return (
     <div className="overflow-hidden group py-4">
       <div
-        className={`flex w-max gap-6 animate-scroll-${direction} group-hover:[animation-play-state:paused]`}
+        className={`flex w-max gap-6 ${
+          direction === "left" ? "scroll-left" : "scroll-right"
+        } group-hover:[animation-play-state:paused]`}
       >
         {fullList.map((review, idx) => (
           <ReviewCard key={idx} {...review} />
@@ -124,6 +126,7 @@ const AutoScrollRow = ({ reviews, direction }) => {
     </div>
   );
 };
+
 
 
 
