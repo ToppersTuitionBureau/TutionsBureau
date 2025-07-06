@@ -40,7 +40,9 @@ const ContactPage = () => {
   return (
     <section className="px-4 py-16 bg-white min-h-96 text-center">
       <Toaster position="top-center" />
-      <h2 className="text-3xl md:text-4xl font-bold text-[#e63946] mb-2">Get in Touch</h2>
+      <h2 className="text-3xl md:text-4xl font-bold text-[#e63946] mb-2">
+        Get in Touch
+      </h2>
       <p className="text-gray-600 mb-10 font-medium">
         Have a question or want to connect with us?
       </p>
@@ -55,8 +57,7 @@ const ContactPage = () => {
           icon={<FiMail />}
           label="Email"
           onClick={() => {
-            window.location.href =
-              "mailto:infotopperstuitionbureau@gmail.com";
+            window.location.href = "mailto:infotopperstuitionbureau@gmail.com";
           }}
         />
         <ContactOption
@@ -88,16 +89,20 @@ const ContactPage = () => {
               >
                 ×
               </button>
-              <h3 className="text-xl font-semibold mb-4 text-[#e63946]">Request a Call Back</h3>
+              <h3 className="text-xl font-semibold mb-4 text-[#e63946]">
+                Request a Call Back
+              </h3>
               <form
                 onSubmit={handleSubmit}
-                action="https://formsubmit.co/infotopperstuitionbureau@gmail.com"
+                action="https://formsubmit.co/bebe5fc676fc8b25072e8d13ea1e8a27"
                 method="POST"
                 className="space-y-4 text-left"
               >
                 <input type="hidden" name="_captcha" value="false" />
                 <div>
-                  <label className="block text-sm font-medium text-[#e63946]">Name</label>
+                  <label className="block text-sm font-medium text-[#e63946]">
+                    Name
+                  </label>
                   <input
                     type="text"
                     name="name"
@@ -108,7 +113,9 @@ const ContactPage = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-[#e63946]">Phone Number</label>
+                  <label className="block text-sm font-medium text-[#e63946]">
+                    Phone Number
+                  </label>
                   <input
                     type="tel"
                     name="number"
@@ -119,7 +126,9 @@ const ContactPage = () => {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-[#e63946]">Your Query</label>
+                  <label className="block text-sm font-medium text-[#e63946]">
+                    Your Query
+                  </label>
                   <textarea
                     name="query"
                     rows="3"
