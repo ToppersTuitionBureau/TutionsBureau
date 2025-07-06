@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import FilterSidebar from '../components/FilterSidebar'
 
 function FindMentor() {
   return (
     <div><Header />
-    find a mentor
+    <FilterSidebar />
     <Footer /> 
     </div>
 
