@@ -1,5 +1,6 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
   const tags = [
@@ -7,10 +8,14 @@ const HeroSection = () => {
     "Non-Academic",
     "Language Learning",
     "Competitive Exams",
-    "Soft Skills"
+    "Soft Skills",
   ];
-  const heroIllustration = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750756243/Webinar-bro_gpvrnz.svg";
-
+  const heroIllustration =
+    "https://res.cloudinary.com/dywebgn1p/image/upload/v1750756243/Webinar-bro_gpvrnz.svg";
+  const navigate = useNavigate();
+  const handleRedirect = () => {
+    navigate("/findmentor");
+  };
   return (
     <section className="bg-[#fff0f1] py-16 px-6">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-12">
@@ -33,7 +38,10 @@ const HeroSection = () => {
               placeholder="What do you want to learn today?"
               className="flex-grow focus:outline-none text-sm"
             />
-            <button className="ml-4 bg-[#e63946] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#d42f3f] transition">
+            <button
+              onClick={handleRedirect}
+              className="ml-4 bg-[#e63946] text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-[#d42f3f] transition"
+            >
               Find Tutor
             </button>
           </div>
