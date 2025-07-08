@@ -91,4 +91,6 @@ For feature requests, mentorship queries or collaboration, drop a message via th
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sk-sadique-13376119b/)  
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/SK-2526)
 
+---
+
 © 2025 Tuitions Bureau | Built with ❤️ using React & Tailwind CSS | Zain & Sadique
