@@ -1,12 +1,85 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎓 Toppers Tuitions Bureau
 
-Currently, two official plugins are available:
+Welcome to **Toppers Tuitions Bureau** – a modern, intuitive platform to connect students with qualified tutors for both **online and home tuition**. This frontend-only web application enables mentor discovery, trial booking, and personalized filtering without needing a backend.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Subject Search & Filter** – Real-time mentor filtering based on subject tags from dataset.
+- 🎯 **Mentor Listings** – Paginated, responsive mentor cards with rich information and actions.
+- 📱 **Mobile Responsive Design** – Adaptive layout for tablet and mobile, including a slide-in filter drawer.
+- 📩 **WhatsApp Integrated Trial Booking** – Students can book free trials by sending pre-filled WhatsApp messages.
+- ⭐ **Top Mentor Section** – Highlight featured mentors with compelling UI and quick trial access.
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | Core UI Framework |
+| ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | Styling |
+| ![Framer Motion](https://img.shields.io/badge/Framer_Motion-EF008C?style=for-the-badge&logo=framer&logoColor=white) | Animations |
+| ![Lucide](https://img.shields.io/badge/Lucide-000000?style=for-the-badge&logo=lucide&logoColor=white) | Icon system |
+| ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) | Navigation |
+| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) | Build Tool |
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── FindaMentor/
+│   ├── contact/
+│   ├── BeaMentor/
+│   ├── Home/
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   └── Sidebar.jsx
+├── data/
+│   └── mentors.js
+├── pages/
+│   ├── BeaMentor.jsx
+│   ├── Home.jsx
+│   ├── Contact.jsx 
+│   └── FindMentor.jsx
+├── Styles
+│   └── globals.css
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📦 How to Run
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Preview
+
+![Preview](https://res.cloudinary.com/dywebgn1p/image/upload/v1750756243/Webinar-bro_gpvrnz.svg)
+
+---
+
+## 🤝 Contribution
+
+This project is part of a solo frontend development initiative to demonstrate UI logic, state handling, and platform integration.
+
+---
+
+## 📞 Contact
+
+For feature requests, mentorship queries or collaboration, drop a message via the WhatsApp integration or reach out via email.
+
+---
+
+© 2025 Tuitions Bureau | Built with ❤️ using React & Tailwind CSS | Zain & Sadique

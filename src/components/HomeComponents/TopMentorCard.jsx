@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaMapMarkerAlt, FaStar } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import TrialBookingModal from "../FindaMentor/TrialBookingModal";
 
 const TopMentorCard = () => {
-    const starBadge ="https://res.cloudinary.com/dywebgn1p/image/upload/v1750689583/star-mentor-medal-badge_rdgmkg.webp";
-    const zain ="https://res.cloudinary.com/dywebgn1p/image/upload/v1750690644/Zain_Draft_twepec.jpg";
+  const [showModal, setShowModal] = useState(false);
+  const mentorName = "Zain Shaikh";
+
+  const starBadge = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750689583/star-mentor-medal-badge_rdgmkg.webp";
+  const zain = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750690644/Zain_Draft_twepec.jpg";
+
   return (
     <section className="px-4 py-12 bg-gradient-to-br from-[#fff5ea] via-[#fffdf8] to-[#fff5ea]">
       <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-2">
         Meet Our <span className="text-[#e63946]">Top-Rated Mentor</span> 🌟
       </h2>
       <p className="text-center text-gray-600 text-base mb-8 max-w-2xl mx-auto">
-       🎯 7+ years of experience. 400+ success stories. Book a free trial and experience the difference.
+        🎯 7+ years of experience. 400+ success stories. Book a free trial and experience the difference.
       </p>
 
       <motion.div
@@ -38,7 +43,7 @@ const TopMentorCard = () => {
           {/* Info */}
           <div className="md:ml-10 mt-6 md:mt-0 w-full md:w-2/3">
             <div className="flex items-center flex-wrap gap-4">
-              <h2 className="text-3xl md:text-4xl font-extrabold">Zain Shaikh</h2>
+              <h2 className="text-3xl md:text-4xl font-extrabold">{mentorName}</h2>
               <span className="text-sm px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full font-medium">
                 7+ Years Experience
               </span>
@@ -78,16 +83,23 @@ const TopMentorCard = () => {
             </div>
 
             <div className="mt-6 flex flex-col md:flex-row items-start md:items-center gap-4">
-              <button className="bg-[#e63946] hover:bg-[#d42f3f] text-white font-semibold px-6 py-3 rounded-lg text-lg transition">
+              <button
+                onClick={() => setShowModal(true)}
+                className="bg-[#e63946] hover:bg-[#d42f3f] text-white font-semibold px-6 py-3 rounded-lg text-lg transition"
+              >
                 Book a Free Trial ✨
-              </button>
-              <button className="text-[#e63946] font-medium underline text-base">
-                View Profile
               </button>
             </div>
           </div>
         </div>
       </motion.div>
+
+      {/* Modal */}
+      <TrialBookingModal
+        isOpen={showModal}
+        onClose={() => setShowModal(false)}
+        mentorName={mentorName}
+      />
     </section>
   );
 };
