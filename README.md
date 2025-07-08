@@ -63,10 +63,9 @@ npm run dev
 ```
 
 ---
+## 🚀 Live Demo
 
-## 📸 Preview
-
-![Preview](https://res.cloudinary.com/dywebgn1p/image/upload/v1750756243/Webinar-bro_gpvrnz.svg)
+🔗 [Visit Toppers Tuitions Bureau](https://topperstuitionbureau.com)
 
 ---
 
@@ -81,5 +80,15 @@ This project is part of a solo frontend development initiative to demonstrate UI
 For feature requests, mentorship queries or collaboration, drop a message via the WhatsApp integration or reach out via email.
 
 ---
+
+## 🧑‍💻 Author
+
+**Zain Shaikh**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zainshaikh21)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/zedd21)
+
+**Sadique Shaikh**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sk-sadique-13376119b/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/SK-2526)
 
 © 2025 Tuitions Bureau | Built with ❤️ using React & Tailwind CSS | Zain & Sadique
