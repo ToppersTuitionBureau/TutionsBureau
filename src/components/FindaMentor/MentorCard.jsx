@@ -53,7 +53,7 @@ const MentorCard = ({ mentor }) => {
         <div className="mt-4 flex flex-col gap-2">
           <div className="flex justify-between items-center">
             <span className="text-[#e63946] font-bold">
-              ₹{mentor.price} /month
+              ₹{mentor.price} /hour
             </span>
             <span className="flex items-center text-sm text-yellow-500">
               <FaStar className="mr-1" /> {mentor.rating}
