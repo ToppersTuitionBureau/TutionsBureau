@@ -5,12 +5,7 @@ import { Link } from "react-router-dom";
 
 const MentorHero = () => {
     const mentorHero = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750773262/Professor-pana_jkm1d1.svg";
-  const handleScrollToForm = () => {
-    const formSection = document.getElementById("mentor-form-section");
-    if (formSection) {
-      formSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
 
   return (
     <section className="bg-[#ffecee] px-14 py-20 flex flex-col-reverse md:flex-row items-center justify-center gap-10">
@@ -25,14 +20,15 @@ const MentorHero = () => {
           Empower Students. <br /> Elevate Your Impact.
         </h1>
         <p className="text-lg text-gray-700 mb-6">
-          Join <span className="font-semibold">Tuitions Bureau</span> and mentor students on their path to success.
+          Join <span className="font-semibold">Toppers Tuition Bureau</span> and mentor students on their path to success.
         </p>
-        <button
-          onClick={handleScrollToForm}
+        <Link
+          to= "https://forms.gle/2wWJnxAgyNGdAcXb7"
+          target="_blank"
           className="bg-[#e63946] hover:bg-[#d42f3f] text-white font-semibold px-6 py-3 rounded-lg transition duration-300 shadow-lg"
         >
           Apply Now →
-        </button>
+        </Link>
       </motion.div>
 
       {/* Illustration */}
