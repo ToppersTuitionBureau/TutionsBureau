@@ -17,7 +17,13 @@ const MentorCard = ({ mentor }) => {
               className="w-16 h-16 rounded-full object-cover"
             />
             <div>
-              <h3 className="text-lg font-semibold text-gray-800">{mentor.name}</h3>
+              <h3 className="text-lg font-semibold text-gray-800">
+                {mentor.name}
+              </h3>
+              <p className="text-xs bg-blue-50 text-blue-800 px-2 py-1 mt-1 rounded font-medium inline-block shadow-sm">
+                🎓 {mentor.qualification}
+              </p>
+
               <p className="flex items-center text-sm text-gray-500">
                 <FaMapMarkerAlt className="mr-1" /> {mentor.location}
               </p>
@@ -46,7 +52,9 @@ const MentorCard = ({ mentor }) => {
         {/* Bottom - Price, Rating & Button */}
         <div className="mt-4 flex flex-col gap-2">
           <div className="flex justify-between items-center">
-            <span className="text-[#e63946] font-bold">₹{mentor.price} /month</span>
+            <span className="text-[#e63946] font-bold">
+              ₹{mentor.price} /month
+            </span>
             <span className="flex items-center text-sm text-yellow-500">
               <FaStar className="mr-1" /> {mentor.rating}
             </span>

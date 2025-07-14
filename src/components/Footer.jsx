@@ -1,13 +1,12 @@
-import React from "react";
-import logo from "../assets/logo/Logo 2 redCropped.jpg";
 
 // Logo 2 cropped
 const Footer = () => {
+  const logoHead = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750593737/Logo_2_redCropped_iyfn5l.jpg";
   return (
     <>
       <footer className="bg-white text-black py-12 px-6 md:px-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-          <img src={logo} alt="Logo" />
+          <img src={logoHead} alt="Logo" />
 
           {/* About Section */}
           <div>

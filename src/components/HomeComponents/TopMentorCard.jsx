@@ -7,8 +7,10 @@ const TopMentorCard = () => {
   const [showModal, setShowModal] = useState(false);
   const mentorName = "Zain Shaikh";
 
-  const starBadge = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750689583/star-mentor-medal-badge_rdgmkg.webp";
-  const zain = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750690644/Zain_Draft_twepec.jpg";
+  const starBadge =
+    "https://res.cloudinary.com/dywebgn1p/image/upload/v1750689583/star-mentor-medal-badge_rdgmkg.webp";
+  const zain =
+    "https://res.cloudinary.com/dywebgn1p/image/upload/v1750690644/Zain_Draft_twepec.jpg";
 
   return (
     <section className="px-4 py-12 bg-gradient-to-br from-[#fff5ea] via-[#fffdf8] to-[#fff5ea]">
@@ -16,7 +18,8 @@ const TopMentorCard = () => {
         Meet Our <span className="text-[#e63946]">Top-Rated Mentor</span> 🌟
       </h2>
       <p className="text-center text-gray-600 text-base mb-8 max-w-2xl mx-auto">
-        🎯 7+ years of experience. 400+ success stories. Book a free trial and experience the difference.
+        🎯 7+ years of experience. 400+ success stories. Book a free trial and
+        experience the difference.
       </p>
 
       <motion.div
@@ -43,7 +46,14 @@ const TopMentorCard = () => {
           {/* Info */}
           <div className="md:ml-10 mt-6 md:mt-0 w-full md:w-2/3">
             <div className="flex items-center flex-wrap gap-4">
-              <h2 className="text-3xl md:text-4xl font-extrabold">{mentorName}</h2>
+              <div>
+                <h2 className="text-3xl md:text-4xl font-extrabold">
+                  {mentorName}
+                </h2>
+                <p className="text-sm font-medium text-[#1f2937] bg-[#e0f2fe] px-3 py-1 rounded-lg inline-block shadow-sm">
+                  🎓 M.Tech in Computer Science, IIT Bombay
+                </p>
+              </div>
               <span className="text-sm px-3 py-1 bg-yellow-100 text-yellow-800 rounded-full font-medium">
                 7+ Years Experience
               </span>
@@ -60,7 +70,9 @@ const TopMentorCard = () => {
             </div>
 
             <p className="text-gray-700 mt-4 text-base leading-relaxed">
-              I will carve out a personalized roadmap for your goals. If you follow it with consistency and dedication, I will ensure you get there.
+              I will carve out a personalized roadmap for your goals. If you
+              follow it with consistency and dedication, I will ensure you get
+              there.
             </p>
 
             <div className="flex flex-wrap gap-2 mt-4">
