@@ -1,0 +1,46 @@
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.scroll-left {
+  animation: scrollLeft 60s linear infinite;
+}
+
+.scroll-right {
+  animation: scrollRight 60s linear infinite;
+}
+
+
+@media (max-width: 426px) {
+    .whyChooseUs-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .categories-section{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .whyChooseUs-section{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .stats-main{
+        height: 900px;
+    }
+}
