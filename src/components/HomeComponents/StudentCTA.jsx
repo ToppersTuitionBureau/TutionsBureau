@@ -1,4 +1,14 @@
+import { useNavigate } from "react-router-dom";
+
 function StudentCTA() {
+  
+ const navigate=  useNavigate()
+
+ const gotoMentor= ()=>{
+   navigate('/findmentor');
+    window.scrollTo(0, 0);
+ }
+  
   const student_illus =
     "https://res.cloudinary.com/dywebgn1p/image/upload/v1750669228/Online_learning-amico_woej3d.svg";
   return (
@@ -29,7 +39,8 @@ function StudentCTA() {
             <li>Get help with school, exams, or projects</li>
             <li>Pay only for sessions you book</li>
           </ul>
-          <button className="bg-[#e63946] hover:bg-[#d22e3f] text-white font-semibold py-3 px-6 rounded-lg w-full sm:w-auto text-lg transition duration-300">
+          <button onClick={gotoMentor} 
+          className="bg-[#e63946] hover:bg-[#d22e3f] text-white font-semibold py-3 px-6 rounded-lg w-full sm:w-auto text-lg transition text-center duration-300">
             Find a Mentor →
           </button>
         </div>

@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
       icon: <FaFilter className="text-5xl text-[#e63946]" />,
       title: "Smart Matching",
       points: [
-        "Filter by subject, expirience",
+        "Filter by subject",
         "Fast tutor recommendations",
         "Tailored search experience",
       ],
@@ -40,9 +40,9 @@ const WhyChooseUs = () => {
       icon: <FaHandshake className="text-5xl text-[#e63946]" />,
       title: "Transparent Pricing",
       points: [
+        "Affordable",
+        "Fair pricing model",
         "No hidden or surprise costs",
-        "Tutors only pay to get listed",
-        "Affordable & fair pricing model",
       ],
     },
   ];

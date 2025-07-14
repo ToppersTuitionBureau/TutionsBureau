@@ -11,7 +11,7 @@ const steps = [
   },
   {
     id: 3,
-    title: 'Become a member and save time and money',
+    title: 'Enroll and Start Learning',
   },
 ];
 

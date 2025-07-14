@@ -25,9 +25,9 @@ const HeroSection = () => {
             Find your <br />
             <span className="text-[#e63946]">Personal Tutor</span>
           </h1>
-          <p className="text-gray-700 text-lg mb-6 max-w-md mx-auto md:mx-0">
-            Learning had to be a better way. So we built it. <br />
-            <strong className="text-black">Online & Home Tuition</strong>
+          <p className="text-black text-lg mb-6 max-w-md mx-auto md:mx-0">
+    
+            <strong className="text-black">Expert guidance that brings out the topper in you</strong>
           </p>
 
           {/* Search Bar */}

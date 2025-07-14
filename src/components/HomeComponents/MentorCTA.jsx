@@ -1,4 +1,14 @@
+import {useNavigate} from 'react-router-dom'
+
 const MentorCTA = () => {
+  
+  const navigate = useNavigate();
+
+  const handleMentor= ()=>{
+    navigate('/apply');
+    window.scrollTo(0, 0);
+  }
+  
   const illustration =
     "https://res.cloudinary.com/dywebgn1p/image/upload/v1750666974/Mathematics-bro_blbc5s.svg";
   return (
@@ -27,7 +37,7 @@ const MentorCTA = () => {
             <li>Set your own schedule</li>
             <li>Get paid securely</li>
           </ul>
-          <button className="bg-[#e63946] hover:bg-[#d22e3f] text-white font-semibold py-3 px-6 rounded-lg w-full sm:w-auto text-lg transition duration-300">
+          <button  onClick={handleMentor} className="bg-[#e63946] hover:bg-[#d22e3f] text-white font-semibold py-3 px-6 rounded-lg w-full sm:w-auto text-lg transition duration-300">
             Apply as a Mentor →
           </button>
         </div>
