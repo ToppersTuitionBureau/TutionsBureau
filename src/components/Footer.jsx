@@ -9,7 +9,7 @@ const Footer = () => {
           
           {/* Logo Column */}
           <div>
-            <img src={logoHead} alt="Logo" className="h-16" />
+            <img src={logoHead} alt="Logo" className="h-28" />
           </div>
 
           {/* About Section */}
@@ -71,13 +71,13 @@ const Footer = () => {
               Contact info
             </h3>
             <p className="text-gray-600 mb-2 text-sm">
-              Email: info@tutionBuearu.com
+              Email: info@topperstuitionbureau.com
             </p>
             <p className="text-gray-600 mb-2 text-sm">
               Phone: +91 90760 61166
             </p>
             <p className="text-gray-600 mb-2 text-sm">
-              Address: 123 Education Lane, City, Country
+              Address: Ahmediya Tower, 1st Rabodi, Thane, Maharashtra - 400601
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ const Footer = () => {
         {/* Footer bottom */}
         <div>
           <p className="mt-8 pt-8 border-t border-gray-300 text-center text-gray-500 text-sm">
-            &copy; 2025 Tuition Bureau. All Rights Reserved.
+            &copy; 2025 Toppers Tuition Bureau. All Rights Reserved.
           </p>
         </div>
       </footer>
