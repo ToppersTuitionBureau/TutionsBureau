@@ -1,7 +1,17 @@
 
 // Logo 2 cropped
+import { useNavigate } from "react-router-dom";
+
 const Footer = () => {
   const logoHead = "https://res.cloudinary.com/dywebgn1p/image/upload/v1750593737/Logo_2_redCropped_iyfn5l.jpg";
+  
+  const navigate= useNavigate();
+
+  const NavigateTo=(path)=>{
+    navigate(path);
+    window.scrollTo(0,0)
+  };
+  
   return (
     <>
       <footer className="bg-white text-black py-12 px-6 md:px-12">
@@ -31,36 +41,37 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                  href="/"
-                >
-                  Home
-                </a>
+                <button
+                onClick={() => NavigateTo("/")}
+                className="text-gray-600 hover:text-red-500 transition-colors"
+              >
+                Home
+              </button>
               </li>
               <li>
-                <a
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                  href="/findmentor"
-                >
-                  Find A Mentor
-                </a>
+                <button
+                onClick={() => NavigateTo("/findmentor")  }
+              
+                className="text-gray-600 hover:text-red-500 transition-colors"
+              >
+                Find A Mentor
+              </button>
               </li>
               <li>
-                <a
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                  href="/apply"
-                >
-                  Be A Mentor
-                </a>
+                <button
+                onClick={() => NavigateTo("/apply")}
+                className="text-gray-600 hover:text-red-500 transition-colors"
+              >
+                Be A Mentor
+              </button>
               </li>
               <li>
-                <a
-                  className="text-gray-600 hover:text-red-500 transition-colors"
-                  href="/contact"
-                >
-                  Contact Us
-                </a>
+                <button
+                onClick={() => NavigateTo("/contact")}
+                className="text-gray-600 hover:text-red-500 transition-colors"
+              >
+                Contact Us
+              </button>
               </li>
             </ul>
           </div>
@@ -77,7 +88,7 @@ const Footer = () => {
               Phone: +91 90760 61166
             </p>
             <p className="text-gray-600 mb-2 text-sm">
-              Address: Ahmediya Tower, 1st Rabodi, Thane, Maharashtra - 400601
+              Address: Ahmadi Tower, 1st Rabodi, Thane, Maharashtra - 400601
             </p>
           </div>
         </div>
