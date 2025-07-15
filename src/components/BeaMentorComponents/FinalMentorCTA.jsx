@@ -21,8 +21,9 @@ const FinalMentorCTA = () => {
           className="mt-4 md:mt-0"
         >
           <Link
-            to="/apply"
+            to="https://forms.gle/2wWJnxAgyNGdAcXb7"
             className="inline-block bg-white text-[#e63946] font-semibold py-3 px-6 rounded-full text-lg transition duration-300 shadow-md hover:bg-[#ffecee]"
+            target="_blank"
           >
             Start Your Mentor Journey →
           </Link>

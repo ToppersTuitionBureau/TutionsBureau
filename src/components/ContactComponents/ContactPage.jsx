@@ -64,7 +64,7 @@ const ContactPage = () => {
           icon={<FaWhatsapp />}
           label="WhatsApp"
           onClick={() => {
-            window.open("https://wa.me/919999999999", "_blank");
+            window.open("https://wa.me/919076061166", "_blank");
           }}
         />
       </div>

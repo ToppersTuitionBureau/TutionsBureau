@@ -2,9 +2,9 @@ const mentors = [
   {
     name: "Arif Shaikh",
     location: "Mumbai, India",
-    experience: 5,
+    experience: 30,
     languages: ["English", "Hindi"],
-    rating: 4.8,
+    rating: 5,
     subjects: ["Java", "System Design", "DSA"],
     price: 5000,
     qualification: "Bcom, MBA(Fin)",
