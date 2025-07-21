@@ -19,7 +19,7 @@ const mentors = [
     subjects: ["Java", "DBMS", "OS"],
     price: 5000,
     qualification: "Bcom, MBA(Fin)",
-    image: "https://res.cloudinary.com/dywebgn1p/image/upload/v1750756243/Webinar-bro_gpvrnz.svg",
+    image: "https://res.cloudinary.com/dywebgn1p/image/upload/v1753109225/SUDHIR_SIR_2_at7yyf.jpg",
   },
  
 ];
