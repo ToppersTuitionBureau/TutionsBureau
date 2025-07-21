@@ -5,8 +5,8 @@ const mentors = [
     experience: 30,
     languages: ["English", "Hindi"],
     rating: 5,
-    subjects: ["Java", "System Design", "DSA"],
-    price: 5000,
+    subjects: ["MATHS", "B.K", "OCM", "ENGLISH GRAMMAR", "SP"],
+    price: 2500,
     qualification: "Bcom, MBA(Fin)",
     image: "https://res.cloudinary.com/dywebgn1p/image/upload/v1752479039/Zain_Draft_twepec.jpg",
   },
@@ -19,7 +19,7 @@ const mentors = [
     subjects: ["Chemistry", "NEET", "JEE"],
     price: 2500,
     qualification: "BSc, , MSC, MBA, B.Ed",
-    image: "https://res.cloudinary.com/dywebgn1p/image/upload/v1753109225/SUDHIR_SIR_2_at7yyf.jpg",
+    image: "https://res.cloudinary.com/dywebgn1p/image/upload/v1753109248/SUDHIR_SIR_pr52gv.jpg",
   },
  
 ];
